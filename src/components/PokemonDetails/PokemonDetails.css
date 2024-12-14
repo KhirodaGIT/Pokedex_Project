@@ -1,0 +1,25 @@
+.pokemonName{
+    font-size: x-large;
+    color: black;
+    margin-top: 1rem;
+}
+.pokemonName > span{
+    letter-spacing: 1rem;
+}
+.pokemon-types{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    font-size: larger;
+}
+.pokemon-types div{
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: gainsboro;
+}
+.pokemon-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
